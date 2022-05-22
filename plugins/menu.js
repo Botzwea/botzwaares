@@ -25,8 +25,8 @@ const defaultMenu = {
 ┃
 ┃⬡ Uptime: *%uptime (%muptime)*
 ┃⬡ Database: %rtotalreg dari %totalreg
-┃⬡ Github:
-┃⬡ https://github.com/AlyaaXd/rfkbot
+┃⬡ Contacts owner:
+┃⬡ wa.me/6281802626072
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
@@ -240,8 +240,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
-┃⬡ Script by Alyaa
-┃⬡ Yt : AlyaaXzy
+┃⬡ Script by aresbotz
+┃⬡ Yt : privasi
 ┃⬡ Run bot : Heroku
 ┃⬡ Tipe SC rfkbot
 ┗━━━━━━━━⬣`.trim(),
